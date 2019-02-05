@@ -10,9 +10,9 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 
 ###############################################################################
 #
-# TODO: 2.
+# Done 2.
 #   RUN this program, then READ its code.
-#     Then answer the following, GETTING HELP AS NEED!  (Ask questions!!!)
+#     Then answer the following, GETTING HELP AS NEEDED!  (Ask questions!!!)
 #     Write your answers in any reasonable way (your choice).
 #
 #     For the first several questions, some students find the following
@@ -44,7 +44,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #          including the (r + 4) but not including the (s - 10),
 #          what expression would you use in the _____ below?
 #
-#            for k in range(r+4,s-9):
+#            for k in range(r+4,s-10):
 #
 #     e. The following code snippet attempts to return the number
 #          of integers from r to s, inclusive, whose cosines are positive.
@@ -52,9 +52,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #
 #              for k in range(r, s+1):
 #                  count = 0
-#                  if math.cos(r) > =0:
-#                      count = 1
-#                  return count
+#                  if math.cos(k) >= 0:
+#                      count = count + 1
+
+#              return count
 #
 #     f. The code in the "graphics accumulation" example below includes:
 #            for _ in range(n):
@@ -79,14 +80,14 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #              for k in range(n):
 #                  center = rg.Point(x + (k * diameter), y)
 #                  circle = rg.Circle(point, radius)
-#                  circle.attach_to(window) This one!
+#                  circle.attach_to(window)
 #
 #              x = starting_point.x
 #              for k in range(n):
 #                  center = rg.Point(x + (k * diameter), y)
 #                  circle = rg.Circle(point, radius)
 #                  circle.attach_to(window)
-#                  x = x + (2 * radius)
+#                  x = x + (2 * radius) This one!
 #
 ###############################################################################
 #   *** MAKE SURE YOU UNDERSTAND THE 3   ACCUMULATOR   PATTERNS    ***
